@@ -65,7 +65,7 @@ const URI_CREDS_RE =
   /(?<![A-Za-z0-9+.-])[A-Za-z][A-Za-z0-9+.-]{1,24}:\/\/[^\s:\/?#@'"<>]+:([^\s\/?#@'"<>]+)@[^\s\/?#'"<>]+/gd;
 
 const ASSIGNMENT_RE =
-  /(["']?)([A-Za-z0-9_.-]*(?:password|passwd|secret|api[_-]?key|apikey|token|authorization)[A-Za-z0-9_.-]*)\1\s*[:=]\s*(?:(?:bearer|basic|token)\s+)?(?:"([^"\r\n]{3,})"|'([^'\r\n]{3,})'|([^\s,;"'`#<>(){}\[\]]{3,}))/gid;
+  /(["']?)([A-Za-z0-9_.-]*(?:password|passwd|passw|pwd|secret|api[_-]?key|apikey|token|authorization)[A-Za-z0-9_.-]*)\1\s*[:=]\s*(?:(?:bearer|basic|token)\s+)?(?:"([^"\r\n]{3,})"|'([^'\r\n]{3,})'|([^\s,;"'`#<>(){}\[\]]{3,}))/gid;
 
 const ASSIGNMENT_KEY_SKIP_RE =
   /(?:type|url|uri|path|file|name|length|count|ttl|expires?(?:_in|_at)?|field|header|label)$/i;
@@ -74,7 +74,7 @@ const ASSIGNMENT_VALUE_SKIP_RE =
   /^(?:true|false|null|none|nil|undefined|\d+|\[redacted\]|redacted)$/i;
 
 const ENTROPY_RE =
-  /(?<![A-Za-z0-9+\/=_-])[A-Za-z0-9+\/=_-]{32,}(?![A-Za-z0-9+\/=_-])/g;
+  /(?<![A-Za-z0-9+\/=_-])[A-Za-z0-9+\/=_-]{12,}(?![A-Za-z0-9+\/=_-])/g;
 
 const HEX_RE = /^[0-9a-f]+$/i;
 

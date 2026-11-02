@@ -1,8 +1,9 @@
-﻿# scan-secrets
+# scan-secrets
 
 Find potential secrets in text before you paste it into an external service (including AI tools). Scanning runs entirely in the browser — text, files, and findings are never uploaded.
 
 **Version:** `0.1.3`  
+**License:** [MIT](LICENSE)
 **Live:** https://secretscanner.dmosk.net
 
 ## Stack

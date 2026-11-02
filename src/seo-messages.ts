@@ -173,7 +173,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Частые вопросы",
     faq: [
       { q: "Мой текст загружается на сервер?", a: "Нет. Проверка выполняется целиком в браузере: текст, файл и находки не отправляются на сервер и нигде не сохраняются." },
-      { q: "Какие секреты находит сканер?", a: "Блоки приватных ключей, токены GitHub, GitLab, Slack, OpenAI и AWS, JWT, URI с паролем, присваивания с password, secret, api_key, token, authorization и длинные строки с высокой энтропией." },
+      { q: "Какие секреты находит сканер?", a: "Блоки приватных ключей, токены GitHub, GitLab, Slack, OpenAI и AWS, JWT, URI с паролем, присваивания с password, passwd, passw, pwd, secret, api_key, token, authorization и длинные строки с высокой энтропией." },
       { q: "Гарантирует ли проверка, что секретов нет?", a: "Нет. Это эвристики: сканер может пропустить нестандартный секрет. Результат — подсказка, а не гарантия." },
       { q: "Почему сканер отметил безобидный текст?", a: "Длинные случайные на вид строки, идентификаторы и примеры похожи на ключи. Ложные срабатывания можно снять отметкой и не заменять." },
       { q: "Что делает замена на [REDACTED]?", a: "Отмеченные находки в поле ввода заменяются на [REDACTED], после чего текст проверяется заново. Исходный файл на диске не меняется." },
@@ -226,7 +226,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Frequently asked questions",
     faq: [
       { q: "Is my text uploaded to a server?", a: "No. Scanning runs entirely in your browser: the text, file and findings are never sent to a server or stored anywhere." },
-      { q: "Which secrets does it find?", a: "Private key blocks, GitHub, GitLab, Slack, OpenAI and AWS tokens, JWTs, URIs with passwords, assignments with password, secret, api_key, token or authorization, and long high-entropy strings." },
+      { q: "Which secrets does it find?", a: "Private key blocks, GitHub, GitLab, Slack, OpenAI and AWS tokens, JWTs, URIs with passwords, assignments with password, passwd, passw, pwd, secret, api_key, token or authorization, and long high-entropy strings." },
       { q: "Does a clean result guarantee there are no secrets?", a: "No. The scanner uses heuristics and can miss an unusual secret. The result is a hint, not a guarantee." },
       { q: "Why did it flag harmless text?", a: "Long random-looking strings, identifiers and examples resemble keys. Uncheck false positives and they will not be replaced." },
       { q: "What does replacing with [REDACTED] do?", a: "Selected findings in the input field are replaced with [REDACTED] and the text is scanned again. A file on disk is never modified." },
@@ -279,7 +279,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "常见问题",
     faq: [
       { q: "我的文本会上传到服务器吗？", a: "不会。检查完全在浏览器中运行：文本、文件和检测结果不会发送到服务器，也不会被保存。" },
-      { q: "它能找出哪些机密？", a: "私钥块、GitHub、GitLab、Slack、OpenAI 和 AWS 令牌、JWT、带密码的 URI、包含 password、secret、api_key、token 或 authorization 的赋值，以及较长的高熵字符串。" },
+      { q: "它能找出哪些机密？", a: "私钥块、GitHub、GitLab、Slack、OpenAI 和 AWS 令牌、JWT、带密码的 URI、包含 password、passwd、passw、pwd、secret、api_key、token 或 authorization 的赋值，以及较长的高熵字符串。" },
       { q: "没有结果就代表没有机密吗？", a: "不。扫描器使用启发式规则，可能漏掉不常见的机密。结果只是提示，不是保证。" },
       { q: "为什么会标出无害文本？", a: "看起来随机的长字符串、标识符和示例与密钥很像。取消勾选误报即可，它们不会被替换。" },
       { q: "替换为 [REDACTED] 会做什么？", a: "输入框中选中的结果会被替换为 [REDACTED]，然后重新检查文本。磁盘上的文件不会被修改。" },
@@ -332,7 +332,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Preguntas frecuentes",
     faq: [
       { q: "¿Mi texto se sube a un servidor?", a: "No. El análisis se ejecuta por completo en su navegador: el texto, el archivo y los hallazgos no se envían a ningún servidor ni se guardan." },
-      { q: "¿Qué secretos encuentra?", a: "Bloques de claves privadas, tokens de GitHub, GitLab, Slack, OpenAI y AWS, JWT, URI con contraseña, asignaciones con password, secret, api_key, token o authorization y cadenas largas de alta entropía." },
+      { q: "¿Qué secretos encuentra?", a: "Bloques de claves privadas, tokens de GitHub, GitLab, Slack, OpenAI y AWS, JWT, URI con contraseña, asignaciones con password, passwd, passw, pwd, secret, api_key, token o authorization y cadenas largas de alta entropía." },
       { q: "¿Un resultado limpio garantiza que no hay secretos?", a: "No. El escáner usa heurísticas y puede pasar por alto un secreto poco habitual. El resultado es una pista, no una garantía." },
       { q: "¿Por qué marcó un texto inofensivo?", a: "Las cadenas largas de aspecto aleatorio, los identificadores y los ejemplos se parecen a las claves. Desmarque los falsos positivos y no se sustituirán." },
       { q: "¿Qué hace sustituir por [REDACTED]?", a: "Los hallazgos marcados en el campo de entrada se sustituyen por [REDACTED] y el texto se vuelve a analizar. Un archivo en disco nunca se modifica." },
@@ -385,7 +385,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "अक्सर पूछे जाने वाले प्रश्न",
     faq: [
       { q: "क्या मेरा टेक्स्ट सर्वर पर अपलोड होता है?", a: "नहीं। जाँच पूरी तरह आपके ब्राउज़र में चलती है: टेक्स्ट, फ़ाइल और नतीजे न किसी सर्वर को भेजे जाते हैं और न कहीं सहेजे जाते हैं।" },
-      { q: "यह कौन-से सीक्रेट खोजता है?", a: "निजी कुंजी ब्लॉक, GitHub, GitLab, Slack, OpenAI और AWS टोकन, JWT, पासवर्ड वाले URI, password, secret, api_key, token या authorization वाले असाइनमेंट और लंबी उच्च एन्ट्रॉपी वाली स्ट्रिंग।" },
+      { q: "यह कौन-से सीक्रेट खोजता है?", a: "निजी कुंजी ब्लॉक, GitHub, GitLab, Slack, OpenAI और AWS टोकन, JWT, पासवर्ड वाले URI, password, passwd, passw, pwd, secret, api_key, token या authorization वाले असाइनमेंट और लंबी उच्च एन्ट्रॉपी वाली स्ट्रिंग।" },
       { q: "क्या खाली नतीजे का मतलब है कि सीक्रेट नहीं हैं?", a: "नहीं। स्कैनर अनुमान-आधारित है और असामान्य सीक्रेट छोड़ सकता है। नतीजा संकेत है, गारंटी नहीं।" },
       { q: "इसने हानिरहित टेक्स्ट पर निशान क्यों लगाया?", a: "लंबी यादृच्छिक-सी दिखने वाली स्ट्रिंग, पहचानकर्ता और उदाहरण कुंजियों जैसे लगते हैं। गलत संकेतों से निशान हटा दें, वे बदले नहीं जाएँगे।" },
       { q: "[REDACTED] से बदलने पर क्या होता है?", a: "इनपुट फ़ील्ड में चुने गए नतीजे [REDACTED] से बदल जाते हैं और टेक्स्ट फिर से जाँचा जाता है। डिस्क की फ़ाइल कभी नहीं बदलती।" },
@@ -438,7 +438,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "الأسئلة الشائعة",
     faq: [
       { q: "هل يُرفع نصي إلى خادم؟", a: "لا. يعمل الفحص بالكامل في متصفحك: لا تُرسل النصوص ولا الملفات ولا النتائج إلى أي خادم ولا تُحفظ في أي مكان." },
-      { q: "ما الأسرار التي يكتشفها؟", a: "كتل المفاتيح الخاصة، ورموز GitHub وGitLab وSlack وOpenAI وAWS، وJWT، وعناوين URI التي تحوي كلمة مرور، وإسنادات تتضمن password أو secret أو api_key أو token أو authorization، والسلاسل الطويلة عالية الإنتروبيا." },
+      { q: "ما الأسرار التي يكتشفها؟", a: "كتل المفاتيح الخاصة، ورموز GitHub وGitLab وSlack وOpenAI وAWS، وJWT، وعناوين URI التي تحوي كلمة مرور، وإسنادات تتضمن password أو passwd أو passw أو pwd أو secret أو api_key أو token أو authorization، والسلاسل الطويلة عالية الإنتروبيا." },
       { q: "هل تعني النتيجة الخالية أنه لا توجد أسرار؟", a: "لا. يستخدم الماسح قواعد استدلالية وقد يفوّت سرًا غير معتاد. النتيجة تلميح وليست ضمانًا." },
       { q: "لماذا نبّه إلى نص غير ضار؟", a: "السلاسل الطويلة التي تبدو عشوائية والمعرّفات والأمثلة تشبه المفاتيح. ألغِ تحديد الإيجابيات الكاذبة فلا تُستبدل." },
       { q: "ماذا يفعل الاستبدال بـ [REDACTED]؟", a: "تُستبدل النتائج المحددة في حقل الإدخال بـ [REDACTED] ثم يُفحص النص من جديد. ولا يُعدَّل أي ملف على القرص." },
@@ -491,7 +491,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "সাধারণ প্রশ্ন",
     faq: [
       { q: "আমার টেক্সট কি সার্ভারে আপলোড হয়?", a: "না। যাচাই পুরোপুরি আপনার ব্রাউজারে চলে: টেক্সট, ফাইল ও ফলাফল কোনো সার্ভারে যায় না এবং কোথাও সংরক্ষিত হয় না।" },
-      { q: "এটি কোন কোন গোপন তথ্য খুঁজে পায়?", a: "প্রাইভেট কী ব্লক, GitHub, GitLab, Slack, OpenAI ও AWS টোকেন, JWT, পাসওয়ার্ডসহ URI, password, secret, api_key, token বা authorization যুক্ত অ্যাসাইনমেন্ট এবং লম্বা উচ্চ এনট্রপির স্ট্রিং।" },
+      { q: "এটি কোন কোন গোপন তথ্য খুঁজে পায়?", a: "প্রাইভেট কী ব্লক, GitHub, GitLab, Slack, OpenAI ও AWS টোকেন, JWT, পাসওয়ার্ডসহ URI, password, passwd, passw, pwd, secret, api_key, token বা authorization যুক্ত অ্যাসাইনমেন্ট এবং লম্বা উচ্চ এনট্রপির স্ট্রিং।" },
       { q: "ফলাফল ফাঁকা মানে কি গোপন তথ্য নেই?", a: "না। স্ক্যানার অনুমানভিত্তিক এবং অস্বাভাবিক গোপন তথ্য বাদ দিতে পারে। ফলাফল ইঙ্গিত, নিশ্চয়তা নয়।" },
       { q: "নিরীহ টেক্সট কেন চিহ্নিত হলো?", a: "লম্বা এলোমেলো-দেখতে স্ট্রিং, শনাক্তকারী ও উদাহরণ কী-এর মতো দেখায়। ভুল শনাক্তকরণের টিক তুলে দিলে সেগুলো বদলাবে না।" },
       { q: "[REDACTED] দিয়ে বদলালে কী হয়?", a: "ইনপুট ঘরে নির্বাচিত ফলাফল [REDACTED] দিয়ে বদলে যায় এবং টেক্সট আবার যাচাই হয়। ডিস্কের ফাইল কখনো বদলায় না।" },
@@ -544,7 +544,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Perguntas frequentes",
     faq: [
       { q: "O meu texto é enviado para um servidor?", a: "Não. A verificação corre inteiramente no seu navegador: o texto, o ficheiro e os resultados não são enviados a nenhum servidor nem guardados." },
-      { q: "Que segredos encontra?", a: "Blocos de chaves privadas, tokens do GitHub, GitLab, Slack, OpenAI e AWS, JWT, URI com palavra-passe, atribuições com password, secret, api_key, token ou authorization e cadeias longas de alta entropia." },
+      { q: "Que segredos encontra?", a: "Blocos de chaves privadas, tokens do GitHub, GitLab, Slack, OpenAI e AWS, JWT, URI com palavra-passe, atribuições com password, passwd, passw, pwd, secret, api_key, token ou authorization e cadeias longas de alta entropia." },
       { q: "Um resultado limpo garante que não há segredos?", a: "Não. O analisador usa heurísticas e pode falhar um segredo invulgar. O resultado é uma pista, não uma garantia." },
       { q: "Porque assinalou texto inofensivo?", a: "Cadeias longas de aspeto aleatório, identificadores e exemplos parecem chaves. Desmarque os falsos positivos e não serão substituídos." },
       { q: "O que faz a substituição por [REDACTED]?", a: "Os resultados marcados no campo de entrada são substituídos por [REDACTED] e o texto é verificado de novo. Um ficheiro no disco nunca é alterado." },
@@ -597,7 +597,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Questions fréquentes",
     faq: [
       { q: "Mon texte est-il envoyé à un serveur ?", a: "Non. L'analyse s'exécute entièrement dans votre navigateur : le texte, le fichier et les résultats ne sont envoyés à aucun serveur ni enregistrés." },
-      { q: "Quels secrets détecte-t-il ?", a: "Blocs de clés privées, jetons GitHub, GitLab, Slack, OpenAI et AWS, JWT, URI avec mot de passe, affectations contenant password, secret, api_key, token ou authorization et longues chaînes à forte entropie." },
+      { q: "Quels secrets détecte-t-il ?", a: "Blocs de clés privées, jetons GitHub, GitLab, Slack, OpenAI et AWS, JWT, URI avec mot de passe, affectations contenant password, passwd, passw, pwd, secret, api_key, token ou authorization et longues chaînes à forte entropie." },
       { q: "Un résultat vide garantit-il l'absence de secrets ?", a: "Non. Le scanner utilise des heuristiques et peut rater un secret inhabituel. Le résultat est un indice, pas une garantie." },
       { q: "Pourquoi a-t-il signalé un texte anodin ?", a: "Les longues chaînes d'apparence aléatoire, les identifiants et les exemples ressemblent à des clés. Décochez les faux positifs et ils ne seront pas remplacés." },
       { q: "Que fait le remplacement par [REDACTED] ?", a: "Les résultats cochés dans le champ de saisie sont remplacés par [REDACTED] et le texte est réanalysé. Un fichier sur le disque n'est jamais modifié." },
@@ -650,7 +650,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Häufige Fragen",
     faq: [
       { q: "Wird mein Text auf einen Server hochgeladen?", a: "Nein. Die Prüfung läuft vollständig in Ihrem Browser: Text, Datei und Funde werden weder an einen Server gesendet noch gespeichert." },
-      { q: "Welche Geheimnisse findet er?", a: "Blöcke privater Schlüssel, Token von GitHub, GitLab, Slack, OpenAI und AWS, JWTs, URIs mit Passwort, Zuweisungen mit password, secret, api_key, token oder authorization sowie lange Zeichenfolgen mit hoher Entropie." },
+      { q: "Welche Geheimnisse findet er?", a: "Blöcke privater Schlüssel, Token von GitHub, GitLab, Slack, OpenAI und AWS, JWTs, URIs mit Passwort, Zuweisungen mit password, passwd, passw, pwd, secret, api_key, token oder authorization sowie lange Zeichenfolgen mit hoher Entropie." },
       { q: "Garantiert ein leeres Ergebnis, dass es keine Geheimnisse gibt?", a: "Nein. Der Scanner nutzt Heuristiken und kann ein ungewöhnliches Geheimnis übersehen. Das Ergebnis ist ein Hinweis, keine Garantie." },
       { q: "Warum wurde harmloser Text markiert?", a: "Lange, zufällig aussehende Zeichenfolgen, Kennungen und Beispiele ähneln Schlüsseln. Entfernen Sie die Markierung bei Fehlalarmen, dann werden sie nicht ersetzt." },
       { q: "Was bewirkt das Ersetzen durch [REDACTED]?", a: "Markierte Funde im Eingabefeld werden durch [REDACTED] ersetzt und der Text wird erneut geprüft. Eine Datei auf dem Datenträger wird nie verändert." },
@@ -703,7 +703,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "よくある質問",
     faq: [
       { q: "テキストはサーバーにアップロードされますか？", a: "いいえ。チェックはすべてブラウザ内で行われ、テキスト、ファイル、検出結果がサーバーに送られたり保存されたりすることはありません。" },
-      { q: "どんなシークレットを検出しますか？", a: "秘密鍵ブロック、GitHub・GitLab・Slack・OpenAI・AWS のトークン、JWT、パスワード付き URI、password・secret・api_key・token・authorization を含む代入、長い高エントロピー文字列です。" },
+      { q: "どんなシークレットを検出しますか？", a: "秘密鍵ブロック、GitHub・GitLab・Slack・OpenAI・AWS のトークン、JWT、パスワード付き URI、password・passwd・passw・pwd・secret・api_key・token・authorization を含む代入、長い高エントロピー文字列です。" },
       { q: "検出がなければシークレットはないと保証されますか？", a: "いいえ。ヒューリスティックなので、特殊なシークレットは見逃すことがあります。結果は目安であり、保証ではありません。" },
       { q: "なぜ無害なテキストが検出されたのですか？", a: "ランダムに見える長い文字列、識別子、サンプルはキーに似ています。誤検出はチェックを外せば置換されません。" },
       { q: "[REDACTED] への置換では何が起こりますか？", a: "入力欄で選択した検出結果が [REDACTED] に置き換えられ、テキストが再チェックされます。ディスク上のファイルは変更されません。" },
@@ -756,7 +756,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Pertanyaan umum",
     faq: [
       { q: "Apakah teks saya diunggah ke server?", a: "Tidak. Pemindaian berjalan sepenuhnya di peramban Anda: teks, berkas, dan temuan tidak dikirim ke server dan tidak disimpan di mana pun." },
-      { q: "Rahasia apa saja yang ditemukan?", a: "Blok kunci privat, token GitHub, GitLab, Slack, OpenAI, dan AWS, JWT, URI dengan kata sandi, penugasan dengan password, secret, api_key, token, atau authorization, serta string panjang berentropi tinggi." },
+      { q: "Rahasia apa saja yang ditemukan?", a: "Blok kunci privat, token GitHub, GitLab, Slack, OpenAI, dan AWS, JWT, URI dengan kata sandi, penugasan dengan password, passwd, passw, pwd, secret, api_key, token, atau authorization, serta string panjang berentropi tinggi." },
       { q: "Apakah hasil kosong menjamin tidak ada rahasia?", a: "Tidak. Pemindai memakai heuristik dan bisa melewatkan rahasia yang tidak lazim. Hasilnya petunjuk, bukan jaminan." },
       { q: "Mengapa teks yang tidak berbahaya ditandai?", a: "String panjang yang tampak acak, pengenal, dan contoh mirip kunci. Hapus centang pada hasil positif palsu agar tidak diganti." },
       { q: "Apa yang dilakukan penggantian dengan [REDACTED]?", a: "Temuan yang dipilih di kolom input diganti dengan [REDACTED] lalu teks dipindai ulang. Berkas di disk tidak pernah diubah." },
@@ -809,7 +809,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "ਅਕਸਰ ਪੁੱਛੇ ਜਾਂਦੇ ਸਵਾਲ",
     faq: [
       { q: "ਕੀ ਮੇਰਾ ਟੈਕਸਟ ਸਰਵਰ 'ਤੇ ਅੱਪਲੋਡ ਹੁੰਦਾ ਹੈ?", a: "ਨਹੀਂ। ਜਾਂਚ ਪੂਰੀ ਤਰ੍ਹਾਂ ਤੁਹਾਡੇ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਚੱਲਦੀ ਹੈ: ਟੈਕਸਟ, ਫ਼ਾਈਲ ਅਤੇ ਨਤੀਜੇ ਨਾ ਕਿਸੇ ਸਰਵਰ ਨੂੰ ਭੇਜੇ ਜਾਂਦੇ ਹਨ, ਨਾ ਕਿਤੇ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ।" },
-      { q: "ਇਹ ਕਿਹੜੇ ਭੇਤ ਲੱਭਦਾ ਹੈ?", a: "ਨਿੱਜੀ ਕੁੰਜੀ ਬਲਾਕ, GitHub, GitLab, Slack, OpenAI ਅਤੇ AWS ਟੋਕਨ, JWT, ਪਾਸਵਰਡ ਵਾਲੇ URI, password, secret, api_key, token ਜਾਂ authorization ਵਾਲੀਆਂ ਅਸਾਈਨਮੈਂਟਾਂ ਅਤੇ ਲੰਮੀਆਂ ਉੱਚ ਐਨਟ੍ਰੌਪੀ ਵਾਲੀਆਂ ਸਟਰਿੰਗਾਂ।" },
+      { q: "ਇਹ ਕਿਹੜੇ ਭੇਤ ਲੱਭਦਾ ਹੈ?", a: "ਨਿੱਜੀ ਕੁੰਜੀ ਬਲਾਕ, GitHub, GitLab, Slack, OpenAI ਅਤੇ AWS ਟੋਕਨ, JWT, ਪਾਸਵਰਡ ਵਾਲੇ URI, password, passwd, passw, pwd, secret, api_key, token ਜਾਂ authorization ਵਾਲੀਆਂ ਅਸਾਈਨਮੈਂਟਾਂ ਅਤੇ ਲੰਮੀਆਂ ਉੱਚ ਐਨਟ੍ਰੌਪੀ ਵਾਲੀਆਂ ਸਟਰਿੰਗਾਂ।" },
       { q: "ਕੀ ਖ਼ਾਲੀ ਨਤੀਜੇ ਦਾ ਮਤਲਬ ਹੈ ਕਿ ਕੋਈ ਭੇਤ ਨਹੀਂ?", a: "ਨਹੀਂ। ਸਕੈਨਰ ਅੰਦਾਜ਼ੇ ਵਾਲੇ ਨਿਯਮ ਵਰਤਦਾ ਹੈ ਅਤੇ ਅਸਾਧਾਰਨ ਭੇਤ ਛੱਡ ਸਕਦਾ ਹੈ। ਨਤੀਜਾ ਸੰਕੇਤ ਹੈ, ਗਾਰੰਟੀ ਨਹੀਂ।" },
       { q: "ਇਸਨੇ ਨੁਕਸਾਨ-ਰਹਿਤ ਟੈਕਸਟ ਕਿਉਂ ਚਿੰਨ੍ਹਿਤ ਕੀਤਾ?", a: "ਲੰਮੀਆਂ ਰੈਂਡਮ-ਜਿਹੀਆਂ ਸਟਰਿੰਗਾਂ, ਪਛਾਣਕਰਤਾ ਅਤੇ ਉਦਾਹਰਨਾਂ ਕੁੰਜੀਆਂ ਵਰਗੀਆਂ ਲੱਗਦੀਆਂ ਹਨ। ਗਲਤ ਸੰਕੇਤਾਂ ਤੋਂ ਨਿਸ਼ਾਨ ਹਟਾ ਦਿਓ, ਉਹ ਬਦਲੀਆਂ ਨਹੀਂ ਜਾਣਗੀਆਂ।" },
       { q: "[REDACTED] ਨਾਲ ਬਦਲਣ 'ਤੇ ਕੀ ਹੁੰਦਾ ਹੈ?", a: "ਇਨਪੁੱਟ ਖਾਨੇ ਵਿੱਚ ਚੁਣੇ ਨਤੀਜੇ [REDACTED] ਨਾਲ ਬਦਲ ਜਾਂਦੇ ਹਨ ਅਤੇ ਟੈਕਸਟ ਦੁਬਾਰਾ ਜਾਂਚਿਆ ਜਾਂਦਾ ਹੈ। ਡਿਸਕ 'ਤੇ ਫ਼ਾਈਲ ਕਦੇ ਨਹੀਂ ਬਦਲਦੀ।" },
@@ -862,7 +862,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Pitakon sing kerep diajokake",
     faq: [
       { q: "Apa teks kula diunggah menyang server?", a: "Ora. Pemindaian mlaku kabeh ing browser sampeyan: teks, berkas, lan temuan ora dikirim menyang server lan ora disimpen ing ngendi wae." },
-      { q: "Rahasia apa wae sing ditemokake?", a: "Blok kunci pribadi, token GitHub, GitLab, Slack, OpenAI, lan AWS, JWT, URI nganggo tembung sandi, penugasan nganggo password, secret, api_key, token, utawa authorization, lan string dawa entropi dhuwur." },
+      { q: "Rahasia apa wae sing ditemokake?", a: "Blok kunci pribadi, token GitHub, GitLab, Slack, OpenAI, lan AWS, JWT, URI nganggo tembung sandi, penugasan nganggo password, passwd, passw, pwd, secret, api_key, token, utawa authorization, lan string dawa entropi dhuwur." },
       { q: "Apa asil kosong njamin ora ana rahasia?", a: "Ora. Pemindai nganggo heuristik lan bisa kliwat rahasia sing ora lumrah. Asile mung pitunjuk, dudu jaminan." },
       { q: "Kenapa teks sing ora mbebayani ditandhani?", a: "String dawa sing katon acak, pangenal, lan conto meh padha karo kunci. Busak centhang ing asil positif palsu supaya ora diganti." },
       { q: "Apa sing ditindakake panggantèn [REDACTED]?", a: "Temuan sing dipilih ing kolom input diganti [REDACTED] banjur teks dipindai maneh. Berkas ing disk ora tau diowahi." },
@@ -915,7 +915,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "తరచుగా అడిగే ప్రశ్నలు",
     faq: [
       { q: "నా టెక్స్ట్ సర్వర్‌కు అప్‌లోడ్ అవుతుందా?", a: "లేదు. తనిఖీ పూర్తిగా మీ బ్రౌజర్‌లోనే జరుగుతుంది: టెక్స్ట్, ఫైల్, ఫలితాలు ఏ సర్వర్‌కూ పంపబడవు, ఎక్కడా నిల్వ చేయబడవు." },
-      { q: "ఇది ఏ రహస్యాలను కనుగొంటుంది?", a: "ప్రైవేట్ కీ బ్లాక్‌లు, GitHub, GitLab, Slack, OpenAI, AWS టోకెన్లు, JWT, పాస్‌వర్డ్ ఉన్న URIలు, password, secret, api_key, token లేదా authorization ఉన్న అసైన్‌మెంట్లు, పొడవైన అధిక ఎంట్రోపీ స్ట్రింగ్‌లు." },
+      { q: "ఇది ఏ రహస్యాలను కనుగొంటుంది?", a: "ప్రైవేట్ కీ బ్లాక్‌లు, GitHub, GitLab, Slack, OpenAI, AWS టోకెన్లు, JWT, పాస్‌వర్డ్ ఉన్న URIలు, password, passwd, passw, pwd, secret, api_key, token లేదా authorization ఉన్న అసైన్‌మెంట్లు, పొడవైన అధిక ఎంట్రోపీ స్ట్రింగ్‌లు." },
       { q: "ఫలితం ఖాళీగా ఉంటే రహస్యాలు లేవని హామీనా?", a: "కాదు. స్కానర్ అంచనా నియమాలు వాడుతుంది, అసాధారణ రహస్యాన్ని వదిలేయవచ్చు. ఫలితం సూచన మాత్రమే, హామీ కాదు." },
       { q: "హానిలేని టెక్స్ట్‌ను ఎందుకు గుర్తించింది?", a: "పొడవైన యాదృచ్ఛికంగా కనిపించే స్ట్రింగ్‌లు, ఐడెంటిఫైయర్లు, ఉదాహరణలు కీల్లా ఉంటాయి. తప్పుడు సూచనల టిక్ తీసేస్తే అవి మారవు." },
       { q: "[REDACTED]తో మార్చితే ఏమవుతుంది?", a: "ఇన్‌పుట్ ఫీల్డ్‌లో ఎంచుకున్న ఫలితాలు [REDACTED]తో మారతాయి, టెక్స్ట్ మళ్లీ తనిఖీ అవుతుంది. డిస్క్‌లోని ఫైల్ ఎప్పుడూ మారదు." },
@@ -968,7 +968,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Sık sorulan sorular",
     faq: [
       { q: "Metnim bir sunucuya yükleniyor mu?", a: "Hayır. Tarama tamamen tarayıcınızda çalışır: metin, dosya ve bulgular hiçbir sunucuya gönderilmez ve hiçbir yerde saklanmaz." },
-      { q: "Hangi sırları bulur?", a: "Özel anahtar blokları, GitHub, GitLab, Slack, OpenAI ve AWS belirteçleri, JWT'ler, parola içeren URI'ler, password, secret, api_key, token veya authorization içeren atamalar ve uzun yüksek entropili diziler." },
+      { q: "Hangi sırları bulur?", a: "Özel anahtar blokları, GitHub, GitLab, Slack, OpenAI ve AWS belirteçleri, JWT'ler, parola içeren URI'ler, password, passwd, passw, pwd, secret, api_key, token veya authorization içeren atamalar ve uzun yüksek entropili diziler." },
       { q: "Temiz sonuç sır olmadığını garanti eder mi?", a: "Hayır. Tarayıcı sezgisel kurallar kullanır ve sıradışı bir sırrı kaçırabilir. Sonuç bir ipucudur, garanti değildir." },
       { q: "Neden zararsız bir metni işaretledi?", a: "Rastgele görünen uzun diziler, tanımlayıcılar ve örnekler anahtarlara benzer. Yanlış alarmların işaretini kaldırırsanız değiştirilmezler." },
       { q: "[REDACTED] ile değiştirmek ne yapar?", a: "Giriş alanında seçilen bulgular [REDACTED] ile değiştirilir ve metin yeniden taranır. Diskteki dosya asla değiştirilmez." },
@@ -1021,7 +1021,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "자주 묻는 질문",
     faq: [
       { q: "내 텍스트가 서버에 업로드되나요?", a: "아니요. 검사는 전적으로 브라우저에서 실행되며 텍스트, 파일, 검사 결과는 서버로 전송되거나 어디에도 저장되지 않습니다." },
-      { q: "어떤 비밀 정보를 찾나요?", a: "개인 키 블록, GitHub·GitLab·Slack·OpenAI·AWS 토큰, JWT, 비밀번호가 포함된 URI, password·secret·api_key·token·authorization이 들어간 할당, 긴 고엔트로피 문자열을 찾습니다." },
+      { q: "어떤 비밀 정보를 찾나요?", a: "개인 키 블록, GitHub·GitLab·Slack·OpenAI·AWS 토큰, JWT, 비밀번호가 포함된 URI, password·passwd·passw·pwd·secret·api_key·token·authorization이 들어간 할당, 긴 고엔트로피 문자열을 찾습니다." },
       { q: "결과가 없으면 비밀 정보가 없다는 보장인가요?", a: "아니요. 휴리스틱을 사용하므로 특이한 비밀 정보는 놓칠 수 있습니다. 결과는 참고용이며 보장이 아닙니다." },
       { q: "왜 무해한 텍스트가 표시되나요?", a: "무작위처럼 보이는 긴 문자열, 식별자, 예시는 키와 비슷합니다. 오탐지는 체크를 해제하면 바뀌지 않습니다." },
       { q: "[REDACTED]로 바꾸면 어떻게 되나요?", a: "입력란에서 선택한 항목이 [REDACTED]로 바뀌고 텍스트가 다시 검사됩니다. 디스크의 파일은 수정되지 않습니다." },
@@ -1074,7 +1074,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "वारंवार विचारले जाणारे प्रश्न",
     faq: [
       { q: "माझा मजकूर सर्व्हरवर अपलोड होतो का?", a: "नाही. तपासणी पूर्णपणे तुमच्या ब्राउझरमध्ये चालते: मजकूर, फाइल आणि निष्कर्ष कोणत्याही सर्व्हरला पाठवले जात नाहीत आणि कुठेही साठवले जात नाहीत." },
-      { q: "कोणती गुपिते शोधते?", a: "खाजगी की ब्लॉक, GitHub, GitLab, Slack, OpenAI आणि AWS टोकन, JWT, पासवर्ड असलेले URI, password, secret, api_key, token किंवा authorization असलेले असाइनमेंट आणि लांब उच्च एन्ट्रॉपीच्या स्ट्रिंग." },
+      { q: "कोणती गुपिते शोधते?", a: "खाजगी की ब्लॉक, GitHub, GitLab, Slack, OpenAI आणि AWS टोकन, JWT, पासवर्ड असलेले URI, password, passwd, passw, pwd, secret, api_key, token किंवा authorization असलेले असाइनमेंट आणि लांब उच्च एन्ट्रॉपीच्या स्ट्रिंग." },
       { q: "रिकाम्या निकालाचा अर्थ गुपिते नाहीत असा होतो का?", a: "नाही. स्कॅनर अंदाजावर आधारित नियम वापरतो आणि असामान्य गुपित सोडू शकतो. निकाल सूचना आहे, हमी नाही." },
       { q: "निरुपद्रवी मजकूर का चिन्हांकित झाला?", a: "लांब यादृच्छिक वाटणाऱ्या स्ट्रिंग, ओळखकर्ते आणि उदाहरणे कींसारखी दिसतात. चुकीच्या सूचनांवरील खूण काढली तर त्या बदलल्या जाणार नाहीत." },
       { q: "[REDACTED] ने बदलल्यावर काय होते?", a: "इनपुट फील्डमध्ये निवडलेले निष्कर्ष [REDACTED] ने बदलतात आणि मजकूर पुन्हा तपासला जातो. डिस्कवरील फाइल कधीच बदलत नाही." },
@@ -1127,7 +1127,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Câu hỏi thường gặp",
     faq: [
       { q: "Văn bản của tôi có được tải lên máy chủ không?", a: "Không. Việc quét chạy hoàn toàn trong trình duyệt: văn bản, tệp và kết quả không được gửi tới máy chủ nào và không được lưu ở đâu." },
-      { q: "Công cụ tìm được những bí mật nào?", a: "Khối khóa riêng tư, token GitHub, GitLab, Slack, OpenAI và AWS, JWT, URI có mật khẩu, phép gán chứa password, secret, api_key, token hoặc authorization và các chuỗi dài có entropy cao." },
+      { q: "Công cụ tìm được những bí mật nào?", a: "Khối khóa riêng tư, token GitHub, GitLab, Slack, OpenAI và AWS, JWT, URI có mật khẩu, phép gán chứa password, passwd, passw, pwd, secret, api_key, token hoặc authorization và các chuỗi dài có entropy cao." },
       { q: "Kết quả trống có bảo đảm không có bí mật không?", a: "Không. Trình quét dùng heuristic và có thể bỏ sót bí mật khác thường. Kết quả chỉ là gợi ý, không phải bảo đảm." },
       { q: "Vì sao văn bản vô hại bị đánh dấu?", a: "Chuỗi dài trông ngẫu nhiên, mã định danh và ví dụ có thể giống khóa. Bỏ chọn các báo nhầm thì chúng sẽ không bị thay." },
       { q: "Thay bằng [REDACTED] làm gì?", a: "Các kết quả được chọn trong ô nhập được thay bằng [REDACTED] rồi văn bản được quét lại. Tệp trên đĩa không bao giờ bị sửa." },
@@ -1180,7 +1180,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "அடிக்கடி கேட்கப்படும் கேள்விகள்",
     faq: [
       { q: "என் உரை சேவையகத்தில் பதிவேற்றப்படுமா?", a: "இல்லை. சோதனை முழுவதும் உங்கள் உலாவியிலேயே நடக்கும்: உரை, கோப்பு, முடிவுகள் எந்தச் சேவையகத்துக்கும் அனுப்பப்படாது, எங்கும் சேமிக்கப்படாது." },
-      { q: "எந்த ரகசியங்களைக் கண்டறியும்?", a: "தனிப்பட்ட விசைத் தொகுதிகள், GitHub, GitLab, Slack, OpenAI, AWS டோக்கன்கள், JWT, கடவுச்சொல் உள்ள URI, password, secret, api_key, token அல்லது authorization கொண்ட ஒதுக்கீடுகள், நீண்ட உயர் என்ட்ரோபி சரங்கள்." },
+      { q: "எந்த ரகசியங்களைக் கண்டறியும்?", a: "தனிப்பட்ட விசைத் தொகுதிகள், GitHub, GitLab, Slack, OpenAI, AWS டோக்கன்கள், JWT, கடவுச்சொல் உள்ள URI, password, passwd, passw, pwd, secret, api_key, token அல்லது authorization கொண்ட ஒதுக்கீடுகள், நீண்ட உயர் என்ட்ரோபி சரங்கள்." },
       { q: "முடிவு காலியாக இருந்தால் ரகசியங்கள் இல்லை என்று உத்தரவாதமா?", a: "இல்லை. ஸ்கேனர் மதிப்பீட்டு விதிகளைப் பயன்படுத்துவதால் அசாதாரண ரகசியத்தைத் தவறவிடலாம். முடிவு ஒரு குறிப்பு, உத்தரவாதம் அல்ல." },
       { q: "பாதிப்பில்லாத உரையை ஏன் குறித்தது?", a: "நீண்ட சீரற்றதுபோல் தெரியும் சரங்கள், அடையாளங்காட்டிகள், எடுத்துக்காட்டுகள் விசைகளைப் போலத் தெரியும். தவறான எச்சரிக்கைகளின் குறியை நீக்கினால் அவை மாற்றப்படாது." },
       { q: "[REDACTED] ஆக மாற்றினால் என்ன நடக்கும்?", a: "உள்ளீட்டுப் புலத்தில் தேர்ந்தெடுத்த முடிவுகள் [REDACTED] ஆக மாறி, உரை மீண்டும் சோதிக்கப்படும். வட்டில் உள்ள கோப்பு ஒருபோதும் மாறாது." },
@@ -1233,7 +1233,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "Domande frequenti",
     faq: [
       { q: "Il mio testo viene caricato su un server?", a: "No. La scansione avviene interamente nel tuo browser: testo, file e risultati non vengono inviati a nessun server né salvati da nessuna parte." },
-      { q: "Quali segreti trova?", a: "Blocchi di chiavi private, token GitHub, GitLab, Slack, OpenAI e AWS, JWT, URI con password, assegnazioni con password, secret, api_key, token o authorization e lunghe stringhe ad alta entropia." },
+      { q: "Quali segreti trova?", a: "Blocchi di chiavi private, token GitHub, GitLab, Slack, OpenAI e AWS, JWT, URI con password, assegnazioni con password, passwd, passw, pwd, secret, api_key, token o authorization e lunghe stringhe ad alta entropia." },
       { q: "Un risultato vuoto garantisce che non ci siano segreti?", a: "No. Lo scanner usa euristiche e può non vedere un segreto insolito. Il risultato è un indizio, non una garanzia." },
       { q: "Perché ha segnalato testo innocuo?", a: "Stringhe lunghe dall'aspetto casuale, identificatori ed esempi somigliano a chiavi. Deseleziona i falsi positivi e non verranno sostituiti." },
       { q: "Cosa fa la sostituzione con [REDACTED]?", a: "I risultati selezionati nel campo di input vengono sostituiti con [REDACTED] e il testo viene riesaminato. Un file su disco non viene mai modificato." },
@@ -1286,7 +1286,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "پرسش‌های متداول",
     faq: [
       { q: "آیا متن من به سرور آپلود می‌شود؟", a: "خیر. بررسی کاملاً در مرورگر شما اجرا می‌شود: متن، فایل و یافته‌ها به هیچ سروری ارسال و در هیچ‌جا ذخیره نمی‌شوند." },
-      { q: "چه رازهایی را پیدا می‌کند؟", a: "بلوک‌های کلید خصوصی، توکن‌های GitHub، GitLab، Slack، OpenAI و AWS، JWT، URIهای دارای گذرواژه، انتساب‌های دارای password، secret، api_key، token یا authorization و رشته‌های بلند با آنتروپی بالا." },
+      { q: "چه رازهایی را پیدا می‌کند؟", a: "بلوک‌های کلید خصوصی، توکن‌های GitHub، GitLab، Slack، OpenAI و AWS، JWT، URIهای دارای گذرواژه، انتساب‌های دارای password، passwd، passw، pwd، secret، api_key، token یا authorization و رشته‌های بلند با آنتروپی بالا." },
       { q: "آیا نتیجهٔ خالی تضمین می‌کند که رازی نیست؟", a: "خیر. اسکنر از قواعد ابتکاری استفاده می‌کند و ممکن است رازی غیرمعمول را از دست بدهد. نتیجه یک راهنماست، نه تضمین." },
       { q: "چرا متن بی‌خطر را علامت زد؟", a: "رشته‌های بلند تصادفی‌نما، شناسه‌ها و نمونه‌ها شبیه کلید هستند. علامت هشدارهای نادرست را بردارید تا جایگزین نشوند." },
       { q: "جایگزینی با [REDACTED] چه می‌کند؟", a: "یافته‌های انتخاب‌شده در کادر ورودی با [REDACTED] جایگزین می‌شوند و متن دوباره بررسی می‌شود. فایل روی دیسک هرگز تغییر نمی‌کند." },
@@ -1339,7 +1339,7 @@ const bodies: Record<Locale, SeoBody> = {
     faqTitle: "chaw' je mu'",
     faq: [
       { q: "ghItlh wIj server Daq ngeH'a'?", a: "ngeHbe'. Doy' lIjwI'Daq neH ro'; ghItlh, mem, tu'lu' je server Daq ngeHbe', 'ej pagh je'be'." },
-      { q: "nuq pegh tu'?", a: "po' Qap, GitHub, GitLab, Slack, OpenAI, AWS Hergh, JWT, mu'wI' URI, password, secret, api_key, token, authorization, 'ej Hoch entropy chuq ghItlh." },
+      { q: "nuq pegh tu'?", a: "po' Qap, GitHub, GitLab, Slack, OpenAI, AWS Hergh, JWT, mu'wI' URI, password, passwd, passw, pwd, secret, api_key, token, authorization, 'ej Hoch entropy chuq ghItlh." },
       { q: "tu'lu' pagh = pegh pagh 'e' maS'a'?", a: "maS pagh. heuristics lo'; pegh pIm paw laH. Qapla' pagh; SuH neH." },
       { q: "ghItlh Qagh nuq tu'lu'?", a: "ghItlh chuq, chaw', mu'tlheghmey Qap Dop. Qagh tu'lu' yIvuv; choHbe'." },
       { q: "[REDACTED] choH nuq ta'?", a: "xaS tu'lu' [REDACTED] choHlu', ghItlh qa'meH Doy'lu'. mem disk Daq choHbe'." },
